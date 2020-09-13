@@ -1,0 +1,3 @@
+include ':gradientartist'
+include ':app'
+rootProject.name = "GradientArtist"

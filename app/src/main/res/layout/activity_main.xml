@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.avijitsamanta.gradientartist.GradientArtistBasic
+        android:id="@+id/gradientImage"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:gradient="@mipmap/ic_launcher"
+        app:imageError="@mipmap/ic_launcher"
+        app:imagePlaceholder="@mipmap/ic_launcher" />
+</RelativeLayout>
